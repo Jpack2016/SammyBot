@@ -4,7 +4,7 @@ This is a discord bot written in JDA, with the PokeAPI also included. This bot w
 JDA Information: https://github.com/DV8FromTheWorld/JDA
 PokeAPI: http://pokeapi.co
 
-This is a gradle application and was my first project using it. I wrote this in IntelliJ IDEA and add more things as time goes on. I havbe more things planned and will edit as necessary. As stated in the comments, this makes REST calls to Urban Dictionary's API, which has a JSON response, and PokeKotlin, which has different response types based on the information you give it.
+This is a gradle application and was my first project using it. I wrote this in IntelliJ IDEA and I plan add more things as time goes on. I havbe more things planned and will edit as necessary. As stated in the comments, this makes REST calls to Urban Dictionary's API, which has a JSON response, and PokeKotlin, which has different response types based on the information you give it.
 
 I ran this application in a batch file in the same directory as my exported Jar file. The code is in a file called sammybot.exe.txt but the following is the code for it:
 java -jar SammyBot-0.1.0.jar
