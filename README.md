@@ -13,6 +13,7 @@ pause
 I made container classes for the evolution information of pokemon and pokemon information itself as it was too long on its own and really cluttered the MessageChatListener. 
 
 Some sample Output is here:
+
 ![pokestats command](https://i.imgur.com/0kmQVAW.png)
 ![help command](https://i.imgur.com/Usy4yeX.png)
 ![define command](https://i.imgur.com/SFf0si0.png)
