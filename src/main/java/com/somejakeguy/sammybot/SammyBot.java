@@ -46,7 +46,7 @@ public class SammyBot {
              * Input your own token here
              * Obtain your token by going to (https://discordapp.com/developers/applications/)
              * Then choose which application (bot) you want to have running this code
-             * Afterwards, copy the "Client Secret" and past in the #setToken
+             * Afterwards, copy the "Token" under Bot and pass it in the #setToken
              **/
 
             JDA jda = new JDABuilder(AccountType.BOT).setToken("").buildAsync();
