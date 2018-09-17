@@ -11,7 +11,9 @@ I ran this application in a batch file in the same directory as my exported Jar 
 java -jar SammyBot-0.1.0.jar
 pause
 
-I made container classes for the evolution information of pokemon and pokemon information itself as it was too long on its own and really cluttered the MessageChatListener. 
+I made container classes for the evolution information of pokemon and pokemon information itself as it was too long on its own and really cluttered the MessageChatListener.
+
+This returns messages or embeded messages in a queue, which takes turns return messages back to the API using an async thread. If there is too many messages at once (because there is a limit of 5 messages per 5 seconds) it will wait until that time has passed then try and send the messages again!
 
 Some sample Output is here:
 
